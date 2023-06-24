@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="icon.png">
+        <title>Testador Teclado</title>
+    </head>
+    <body>
+
+        <div class="unitario-container">
+            <div class="unitario-corpo">
+                <h3 class="unitario-title">Tecla Pressionada: </h3>
+                <div class="unitario-teclas">
+                    <h1 class="unitario-square" id="keyb"></h1>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('keydown', (e) => {    
+                const keyb = document.getElementById('keyb');
+                keyb.innerHTML = e.key;
+
+                if(e.key === ' ') {
+                    keyb.innerHTML = 'Backspace';
+                }
+                            });         
+        </script>
+
+    </body>
+</html>
