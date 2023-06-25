@@ -176,3 +176,22 @@ body {
 .shift {
     width: 8% !important;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cyan;
+}
+
+footer {
+    width: 100%;
+    padding: 16px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+}
