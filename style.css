@@ -89,12 +89,12 @@ body {
 /* COMPLETO */
 
 .completo-container {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .completo-corpo {
-    width: 70vw;
-    height: 42vh;
+    width: 75vw;
+    height: 90%;
     background-color: black;
     color: whitesmoke;
     border: 3px solid whitesmoke;
